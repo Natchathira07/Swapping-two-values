@@ -18,8 +18,20 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
+a = input("Enter first value: ")
+b = input("Enter second value: ")
 
+temp = b
+b = a
+a = temp
 
+print("After swapping:")
+print("a =", a)
+print("b =", b)
+```
+## Output:
+<img width="466" height="270" alt="image" src="https://github.com/user-attachments/assets/0a6a16a3-5b47-4b67-87f1-f59e8ae4ad66" />
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
